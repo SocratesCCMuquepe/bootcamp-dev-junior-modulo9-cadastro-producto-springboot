@@ -29,7 +29,6 @@ public class ProductController {
 
         product.setId(products.size() + 1);
         products.add(product);
-
         URI location = ServletUriComponentsBuilder
                 .fromCurrentRequest()
                 .path("/{id}")
